@@ -30,7 +30,7 @@ export const Payment = () => {
   }
   const handlePayment = useCallback((value) => {
     const options = {
-      key: "rzp_test_md3nNLGyahlzW1",
+      key: "rzp_live_W9QWFgCDVxviQ9",
       amount: value*100,
       currency: "INR",
       name: "Unacademy",
