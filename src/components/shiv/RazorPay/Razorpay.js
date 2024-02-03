@@ -6,7 +6,7 @@ export const Pay = () => {
   const navigate=useNavigate();
   const handlePayment = useCallback(() => {
     const options = {
-      key: "rzp_test_md3nNLGyahlzW1",
+      key: "rzp_live_W9QWFgCDVxviQ9",
       amount: "3000",
       currency: "INR",
       name: "Unacademy",
