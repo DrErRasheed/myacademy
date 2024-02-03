@@ -4,7 +4,7 @@ import { useCallback } from "react";
 import useRazorpay from "react-razorpay";
 import { useNavigate } from "react-router";
 export const Payment = () => {
-  const [price, setPrice] = useState(80000);
+  const [price, setPrice] = useState(100);
   const [wrong, setWrong] = useState(false);
   const [couponApplied, setCouponApplied] = useState(false);
   const coupon = useRef("");
@@ -138,7 +138,7 @@ export const Payment = () => {
                 <div className="rm-btn">
                   <button
                     onClick={() => {
-                      setPrice(80000);
+                      setPrice(100);
                       setCouponApplied(false);
                       setWrong(false);
                     }}
